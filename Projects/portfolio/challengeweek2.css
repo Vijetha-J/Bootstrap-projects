@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+}
+#navbar{
+  background-color: black;
+  color: white;
+  top:0;
+  display: flex;
+  padding: 1.5rem,8rem;
+  position: sticky;
+  border-bottom: 3px solid #f00c85;
+  z-index: 1;
+}
+
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#navbar li a{
+  color: white;
+  text-decoration:none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  justify-content: flex;
+}
+#navbar h2 a{
+  color: hotpink;
+  text-decoration: none;
+}
+#navbar li a:hover{
+  background-color:hotpink;
+}
+#myProgress {
+  width: 100%;
+  background-color:#4a4646;
+}
+#container{
+  background-color:grey;
+}
+
+#floatleft{
+  float: left;
+  width: 60%;
+  padding:5px;
+}
+#floatright{
+  float: right;
+  padding:5px;
+}
+#outer{
+  width: 100%
+}
+
+#myBar {
+  width: 60%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+#Home{
+  background-image: url('https://engineering.eckovation.com/wp-content/uploads/2016/09/Web-Development.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#border{
+  border-style: solid;
+  border-color: red;
+  border-radius: 5%;
+}
+#About{
+  border-top-left-radius: 270px 300px;
+  background-color: white;
+  padding: 70px;
+    text-align: center;
+}
+#quote{
+  background-color: black;}
+#hotpink{
+  color: hotpink;
+  text-align: center;
+}
+#name{
+  color: #f00c85;
+}
+#para{
+  font-size: 50px;
+  color: white;
+  font-family:arial narrow;
+
+}
+#head1{
+  text-align: center;
+  font-family:broadway;
+
+}
+#head2{
+  text-align: center;
+  font-size: 30px;
+  color: blue;
+}
+#wb{
+  border-radius: 50%;
+}
+h1{
+  font-size: 50px
+}
+
+#top{
+  align-items:stretch;
+  padding: 5px;
+  text-align:right;
+
+
+}
+
+#center{
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
+#submit{
+  color: white;
+  font-size: 20px;
+  background-color: hotpink;
+  border: none;
+  border-radius: 10;
+  align-items: center;
+}
+#submit:hover{
+  background-color:#f00c85;
+}
+#elementheading{
+  font-size: 30px;
+  color: hotpink;
+}
+
+#contact{
+  float:left;
+}
+#message{
+  float: right;
+}
+#footer{
+  background-color: hotpink;
+
+}
+.socialmedia{
+  color: white;
+}

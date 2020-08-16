@@ -1,0 +1,19 @@
+body {
+  padding-top: 50px;
+}
+section{
+  margin:20px 0 20px 0;
+  padding: 30px 0 30px 0;
+}
+.title{
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.img-thumbnail{
+  height:250px;
+  width: 400px;
+}
